@@ -6,7 +6,6 @@ public class Soal_2_Constants {
         double paperHeight = 11;
         System.out.println("Paper size in centimeters: " + paperWidth
                 * CM_PER_INCH + " by " + paperHeight * CM_PER_INCH);
-    
     }
 }
 
@@ -15,6 +14,6 @@ public class Soal_2_Constants {
  */
 
 /*
-     - Kalau yang soal_2_constant hanya bisa dikenali pada procedure main
+     - Kalau yang soal_2_constant variabel hanya bisa dikenali pada procedure main
      - Tetapi kalau soal_2_constant2 bisa dikenali secara global/ bisa digunakan pada fungsi/procedure lain
 */

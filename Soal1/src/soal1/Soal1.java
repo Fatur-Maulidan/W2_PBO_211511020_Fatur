@@ -6,6 +6,7 @@ public class Soal1 {
         
         double input_angka;
         
+        for(;;){
         System.out.print("Input 1 angka : ");
         input_angka = obj.nextDouble();
         
@@ -24,5 +25,5 @@ public class Soal1 {
         else
             System.out.println(input_angka + " can't be fitted anywhere");
     }
-    
+    }
 }

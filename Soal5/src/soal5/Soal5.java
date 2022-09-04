@@ -6,7 +6,6 @@ public class Soal5 {
         String kata1, kata2, status;
 //        int jumlah_kata1,jumlah_kata2,jumlah;
 //        
-//        
 //        System.out.println("Program menghitung apakah banyak huruf ke-1 lebih banyak dari huruf ke-2");
 //        System.out.print("Masukkan ke - 1 : ");
 //        kata1 = obj.nextLine();
@@ -32,7 +31,7 @@ public class Soal5 {
         kata2 = obj.nextLine();
         
         System.out.println(kata1.length() + kata2.length());
-        System.out.println((kata1.compareTo(kata2) == 0) ? "Jumlahnya sama" : (kata1.compareTo(kata2) == 1) ? "No" : "Yes");
+        System.out.println((kata1.compareTo(kata2) == 0) ? "Jumlahnya sama" : (kata1.compareTo(kata2) == 1) ? "Yes" : "No");
         System.out.println(kata1.substring(0, 1).toUpperCase() + kata1.substring(1) + " " + kata2.substring(0, 1).toUpperCase() + kata2.substring(1));
           
     }
